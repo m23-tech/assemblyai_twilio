@@ -46,6 +46,6 @@ def download_file(url_data):
         print(f"Error Occurred: {error}")  
 
 if __name__ == '__main__':
-    rec_id = 'RE14ce0cec673e922d585a7bf6b8eb3100'
+    rec_id = 'XXXXX' # ADD THE PROPER Recording SID
     url_info = get_recording_metadata(rec_id)
     download_file(url_info)
