@@ -26,5 +26,5 @@ def get_recording_metadata(recording_id):
         print(f"Error Occurred: {error}")  
 
 if __name__ == '__main__':
-    rec_id = 'RE14ce0cec673e922d585a7bf6b8eb3100'
+    rec_id = 'XXXXX' # ADD THE PROPER Recording SID
     get_recording_metadata(rec_id)
