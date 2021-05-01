@@ -90,7 +90,7 @@ def transcribe_audio(upload_url):
 if __name__ == '__main__':
     # Downloaded fIle location (Twilio Downloaded File)
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    file_name = "RE14ce0cec673e922d585a7bf6b8eb3100.mp3"
+    file_name = 'XXXXX.mp3' # ADD THE PROPER Audio File
     file_path= f"{dir_path}\\{file_name}"
     print(f"Audio File Path: {file_path}")
     
