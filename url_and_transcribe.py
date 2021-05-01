@@ -74,7 +74,7 @@ def transcribe_audio(upload_url):
         print(f"Error Occurred: {error}")  
 
 if __name__ == '__main__':
-    rec_id = 'RE14ce0cec673e922d585a7bf6b8eb3100'
+    'XXXXX' # ADD THE PROPER Recording SID
     uri_data = get_recording_metadata(rec_id)
     print(f"Twilio URI: {uri_data}")
 
